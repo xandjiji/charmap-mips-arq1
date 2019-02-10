@@ -10,8 +10,12 @@ A charmap for text output implemented in a MIPS architecture.
 
 ![font_ROM](https://i.imgur.com/zKltJs4.png)
 
+---
+
 ```char_circuit.sv``` contains the circuit for loading each pixel coordinate from a character selection:
 
 ![font_ROM](https://i.imgur.com/RzSoQXG.png)
+
+---
 
 ```vga640x480.sv``` contains the main circuit where we output the RGB signals using VGA protocol.
